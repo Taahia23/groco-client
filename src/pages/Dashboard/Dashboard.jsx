@@ -3,6 +3,7 @@
 
 import { Link } from "react-router-dom";
 import Banner from "../Home/Banner";
+import Popular from "../Home/Popular";
 
 const DashBoard = () => {
     return (
@@ -12,6 +13,7 @@ const DashBoard = () => {
                 <div className="drawer-content">
                     {/* Page content here */}
                      <Banner></Banner>
+                     <Popular></Popular>
                     <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
                    
 
@@ -20,7 +22,7 @@ const DashBoard = () => {
                     <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-80 min-h-full bg-[#C2E1C2] text-base-content">
                         {/* Sidebar content here */}
-                        <li className="text-lg py-2 font-semibold"><Link >Fish & Meat</Link></li>
+                        <li className="text-lg py-2 font-semibold"><Link to={'/fish'} >Fish & Meat</Link></li>
                         <li className="text-lg py-2 font-semibold"><Link >Cooking</Link></li>
                         <li className="text-lg py-2 font-semibold"><Link >Beverages
 </Link></li>
