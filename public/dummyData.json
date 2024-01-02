@@ -1,0 +1,195 @@
+[
+    {
+      "productName": "Premium Chicken Breast",
+      "productImage": "https://i.ibb.co/Zx2qGDJ/c2.jpg",
+      "price": 8.99,
+      "amount": "500g",
+      "shortDescription": "Boneless and skinless chicken breast for a healthy meal",
+      "category": "chicken"
+    },
+    {
+      "productName": "Organic Chicken Thighs",
+      "productImage": "https://i.ibb.co/5GJkQPD/c3.jpg",
+      "price": 12.49,
+      "amount": "750g",
+      "shortDescription": "Certified organic chicken thighs for a delicious and sustainable choice",
+      "category": "chicken"
+    },
+    {
+      "productName": "Spicy Chicken Wings Pack",
+      "productImage": "https://i.ibb.co/94Tt3S9/c4.jpg",
+      "price": 6.99,
+      "amount": "400g",
+      "shortDescription": "Tasty and spicy chicken wings for a perfect appetizer or snack",
+      "category": "chicken"
+    },
+    {
+      "productName": "Whole Rotisserie Chicken",
+      "productImage": "https://i.ibb.co/pLHwmmx/chicken1.jpg",
+      "price": 15.99,
+      "amount": "1.2kg",
+      "shortDescription": "Juicy and flavorful whole rotisserie chicken, ready to serve",
+      "category": "chicken"
+    },
+    {
+        "productName": "Fresh Salmon Fillet",
+        "productImage": "https://i.ibb.co/1vC2j4c/f1.jpg",
+        "price": 14.99,
+        "amount": "400g",
+        "shortDescription": "High-quality fresh salmon fillet, rich in omega-3 fatty acids",
+        "category": "fish"
+      },
+      {
+        "productName": "Tuna Steak Pack",
+        "productImage": "https://i.ibb.co/t3Wdghz/f2.jpg",
+        "price": 10.49,
+        "amount": "500g",
+        "shortDescription": "Premium tuna steaks, perfect for grilling or pan-searing",
+        "category": "fish"
+      },
+      {
+        "productName": "Breaded Cod Fillets",
+        "productImage": "https://i.ibb.co/qsZBBPf/f3.jpg",
+        "price": 8.99,
+        "amount": "600g",
+        "shortDescription": "Delicious breaded cod fillets, quick and easy to prepare",
+        "category": "fish"
+      },
+      {
+        "productName": "Smoked Trout Delight",
+        "productImage": "https://i.ibb.co/gVkBypM/f4.jpg",
+        "price": 11.99,
+        "amount": "350g",
+        "shortDescription": "Flavorful smoked trout for a gourmet seafood experience",
+        "category": "fish"
+      },
+      {
+        "productName": "Dried Chillies (Shukna Morich)",
+        "productImage": "https://i.ibb.co/wMwcmGj/chilli.jpg",
+        "price": 4.99,
+        "amount": "250ml",
+        "shortDescription": "Spicy hot chili sauce to add a kick to your dishes",
+        "category": "cooking"
+      },
+      {
+        "productName": "Alu Bukhara",
+        "productImage": "https://i.ibb.co/8c64pTq/bukhara.jpg",
+        "price": 3.49,
+        "amount": "150g",
+        "shortDescription": "Premium curry powder blend for authentic and flavorful curries",
+        "category": "cooking"
+      },
+      {
+        "productName": "Chia Seed",
+        "productImage": "https://i.ibb.co/gzYrS9G/chiaSeed.jpg",
+        "price": 6.99,
+        "amount": "500ml",
+        "shortDescription": "High-quality olive oil infused with garlic for versatile cooking",
+        "category": "cooking"
+      },
+      {
+        "productName": "Green Cardamom (Sobuj Elachi)",
+        "productImage": "https://i.ibb.co/wd7fs3p/elach.jpg",
+        "price": 2.79,
+        "amount": "100g",
+        "shortDescription": "Ground cayenne pepper powder for adding heat to your recipes",
+        "category": "cooking"
+      },
+      {
+        "productName": "Extra Virgin Olive Oil",
+        "productImage": "https://i.ibb.co/sPXSxMD/oil1.jpg",
+        "price": 9.99,
+        "amount": "750ml",
+        "shortDescription": "High-quality extra virgin olive oil for cooking and salads",
+        "category": "oil"
+      },
+      {
+        "productName": "Vegetable Cooking Oil",
+        "productImage": "https://i.ibb.co/SXRjQKJ/oil2.jpg",
+        "price": 4.49,
+        "amount": "1.5L",
+        "shortDescription": "Versatile vegetable cooking oil for frying and general cooking",
+        "category": "oil"
+      },
+      {
+        "productName": "Coconut Oil",
+        "productImage": "https://i.ibb.co/yq9D9DV/oil3.jpg",
+        "price": 7.99,
+        "amount": "500ml",
+        "shortDescription": "Organic coconut oil for baking, cooking, and skincare",
+        "category": "oil"
+      },
+      {
+        "productName": "Sesame Seed Oil",
+        "productImage": "https://i.ibb.co/vD4Xb3H/oil4.jpg",
+        "price": 5.79,
+        "amount": "250ml",
+        "shortDescription": "Rich and aromatic sesame seed oil for Asian-inspired dishes",
+        "category": "oil"
+      },
+      {
+        "productName": "Basmati Rice",
+        "productImage": "https://i.ibb.co/G7216P5/rice1.jpg",
+        "price": 59.9,
+        "amount": "1kg",
+        "shortDescription": "Premium long-grain Basmati rice for aromatic and fluffy dishes",
+        "category": "rice"
+      },
+      {
+        "productName": "Jasmine Rice",
+        "productImage": "https://i.ibb.co/cC2wT7s/rice2.jpg",
+        "price": 44.9,
+        "amount": "2kg",
+        "shortDescription": "Fragrant Jasmine rice perfect for Asian-inspired cuisine",
+        "category": "rice"
+      },
+      {
+        "productName": "Brown Rice",
+        "productImage": "https://i.ibb.co/SKsrX2k/rice3.jpg",
+        "price": 39.9,
+        "amount": "1.5kg",
+        "shortDescription": "Nutrient-rich brown rice for a healthy and wholesome option",
+        "category": "rice"
+      },
+      {
+        "productName": "Arborio Rice",
+        "productImage": "https://i.ibb.co/2qNYkZB/rice4.jpg",
+        "price": 67.9,
+        "amount": "500g",
+        "shortDescription": "Italian Arborio rice for creamy and delicious risotto dishes",
+        "category": "rice"
+      },
+      {
+        "productName": "Wild Rice Blend",
+        "productImage": "https://i.ibb.co/fDD9CJj/rice5.jpg",
+        "price": 84.9,
+        "amount": "800g",
+        "shortDescription": "A blend of wild rice varieties for a unique and nutritious meal",
+        "category": "rice"
+      },
+      {
+        "productName": "Sushi Rice",
+        "productImage": "https://i.ibb.co/vBsHxhm/rice6.jpg",
+        "price": 79.9,
+        "amount": "1kg",
+        "shortDescription": "High-quality rice specifically crafted for sushi preparation",
+        "category": "rice"
+      },
+      {
+        "productName": "Quinoa and Brown Rice Mix",
+        "productImage": "https://i.ibb.co/gdQcC1B/rice7.jpg",
+        "price": 92.9,
+        "amount": "750g",
+        "shortDescription": "A nutritious mix of quinoa and brown rice for a balanced diet",
+        "category": "rice"
+      },
+      {
+        "productName": "Red Rice",
+        "productImage": "https://i.ibb.co/7nB82Ws/rice8.jpg",
+        "price": 154.9,
+        "amount": "1.2kg",
+        "shortDescription": "Healthy and flavorful red rice for a colorful addition to your meals",
+        "category": "rice"
+      }
+  ]
+  
