@@ -109,7 +109,7 @@
       },
       {
         "_id" : 12,
-        "productName": "Extra Virgin Olive Oil",
+        "productName": "Virgin Olive Oil",
         "productImage": "https://i.ibb.co/sPXSxMD/oil1.jpg",
         "price": 9.99,
         "amount": "750ml",
@@ -118,7 +118,7 @@
       },
       {
         "_id" : 13,
-        "productName": "Vegetable Cooking Oil",
+        "productName": "Veg Cooking Oil",
         "productImage": "https://i.ibb.co/SXRjQKJ/oil2.jpg",
         "price": 4.49,
         "amount": "1.5L",

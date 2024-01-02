@@ -24,6 +24,7 @@ const DashBoard = () => {
                         {/* Sidebar content here */}
                         <li className="text-lg py-2 font-semibold"><Link to={'/fish'} >Fish & Meat</Link></li>
                         <li className="text-lg py-2 font-semibold"><Link to={'/cooking'} >Cooking</Link></li>
+                        <li className="text-lg py-2 font-semibold"><Link to={'/oil'} >Oil</Link></li>
                         <li className="text-lg py-2 font-semibold"><Link >Beverages
 </Link></li>
                         <li className="text-lg py-2 font-semibold"><Link >Home & Cleaning</Link></li>

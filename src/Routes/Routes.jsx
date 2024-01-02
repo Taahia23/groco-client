@@ -7,6 +7,7 @@ import Fish from "../pages/Fish";
 import Login from "../pages/Login/Login";
 import SignUp from "../SignUp/SignUp";
 import Cooking from "../pages/Cooking";
+import Oil from "../pages/Oil";
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
       {
         path: 'cooking',
         element: <Cooking></Cooking>
+      },
+      {
+        path: 'oil',
+        element: <Oil></Oil>
       },
       {
         path: 'login',
