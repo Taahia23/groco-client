@@ -1,30 +1,29 @@
 import { useEffect, useState } from "react";
-import ProductItem from "../components/ProductItem";
 import Container from "../components/Container";
+import ProductItem from "../components/ProductItem";
 import { Link } from "react-router-dom";
 
-
-const Fish = () => {
-    const [fishItem, setFishItem] = useState([])
+const Cooking = () => {
+    const [cookingItem, setCookingItem] = useState([])
 
 
     useEffect(()=>{
         fetch('dummyData.json')
         .then(res => res.json())
         .then(data => {
-            const fish = data.filter(item => item.category === 'fish')
-            setFishItem(fish)
+            const cooking = data.filter(item => item.category === 'cooking')
+            setCookingItem(cooking)
         })
     }, [])
 
     return (
         <Container>
             <div>
-                <h1 className="text-center text-6xl font-bold my-20">Fish Items</h1>
+                <h1 className="text-center text-6xl font-bold my-20">Cooking  Items</h1>
            
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-32">
             {
-                fishItem.map(item => <ProductItem 
+                cookingItem.map(item => <ProductItem 
 
                 key={item._id} 
                 item = {item}>
@@ -40,4 +39,4 @@ const Fish = () => {
     );
 };
 
-export default Fish;
+export default Cooking;

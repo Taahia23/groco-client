@@ -73,7 +73,7 @@
       },
       {
         "_id" : 8,
-        "productName": "Dried Chillies (Shukna Morich)",
+        "productName": "Dried Chillies",
         "productImage": "https://i.ibb.co/wMwcmGj/chilli.jpg",
         "price": 4.99,
         "amount": "250ml",
@@ -100,7 +100,7 @@
       },
       {
         "_id" : 11,
-        "productName": "Green Cardamom (Sobuj Elachi)",
+        "productName": "Green Cardamom",
         "productImage": "https://i.ibb.co/wd7fs3p/elach.jpg",
         "price": 2.79,
         "amount": "100g",
