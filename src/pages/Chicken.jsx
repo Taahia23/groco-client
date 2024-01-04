@@ -1,33 +1,20 @@
 import { Link } from "react-router-dom";
-import Container from "../components/Container";
 import ProductItem from "../components/ProductItem";
+import Container from "../components/Container";
 import useItem from "../hooks/useItem";
 
-
-const Rice = () => {
-    // const [riceItem, setRiceItem] = useState([])
-
-
-    // useEffect(()=>{
-    //     fetch('dummyData.json')
-    //     .then(res => res.json())
-    //     .then(data => {
-    //         const rice = data.filter(item => item.category === 'rice')
-    //         setRiceItem(rice)
-    //     })
-    // }, [])
-
+const Chicken = () => {
     const [foodItem] = useItem();
-    const riceItem = foodItem.filter(item => item.category === 'rice')
+    const chickenItem = foodItem.filter(item => item.category === 'chicken')
 
     return (
         <Container>
             <div>
-                <h1 className="text-center text-6xl font-bold my-20">Rice Items</h1>
+                <h1 className="text-center text-6xl font-bold my-20">Chicken Items</h1>
            
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-32">
             {
-                riceItem.map(item => <ProductItem 
+                chickenItem.map(item => <ProductItem 
 
                 key={item._id} 
                 item = {item}>
@@ -43,4 +30,4 @@ const Rice = () => {
     );
 };
 
-export default Rice;
+export default Chicken;

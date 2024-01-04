@@ -1,20 +1,12 @@
-import { useEffect, useState } from "react";
+
 import Container from "../components/Container";
 import ProductItem from "../components/ProductItem";
 import { Link } from "react-router-dom";
+import useItem from "../hooks/useItem";
 
 const Cooking = () => {
-    const [cookingItem, setCookingItem] = useState([])
-
-
-    useEffect(()=>{
-        fetch('dummyData.json')
-        .then(res => res.json())
-        .then(data => {
-            const cooking = data.filter(item => item.category === 'cooking')
-            setCookingItem(cooking)
-        })
-    }, [])
+    const [foodItem] = useItem();
+    const cookingItem = foodItem.filter(item => item.category === 'cooking')
 
     return (
         <Container>
