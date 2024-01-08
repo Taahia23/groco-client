@@ -6,7 +6,7 @@ const useItem = () => {
 
 
     useEffect(()=>{
-        fetch('dummyData.json')
+        fetch('http://localhost:5000/foodItem')
         .then(res => res.json())
         .then(data => {
             

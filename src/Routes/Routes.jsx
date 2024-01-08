@@ -10,6 +10,7 @@ import Cooking from "../pages/Cooking";
 import Oil from "../pages/Oil";
 import Rice from "../pages/Rice";
 import Chicken from "../pages/Chicken";
+import DetailModal from "../components/DetailModal";
 
 export const router = createBrowserRouter([
   {
@@ -39,6 +40,11 @@ export const router = createBrowserRouter([
       {
         path: 'chicken',
         element: <Chicken></Chicken>
+      },
+      {
+        path: '/detail/:id',
+        element:<DetailModal></DetailModal>,
+        loader: ({params})=>fetch(`http://localhost:5000/foodItem/${params.id}`)
       },
       {
         path: 'login',
