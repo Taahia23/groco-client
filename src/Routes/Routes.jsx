@@ -43,8 +43,8 @@ export const router = createBrowserRouter([
       },
       {
         path: '/detail/:id',
-        element:<DetailModal></DetailModal>,
-        loader: ({params})=>fetch(`http://localhost:5000/foodItem/${params.id}`)
+        element: <DetailModal></DetailModal>,
+        loader: ({ params }) => fetch(`http://localhost:5000/foodItem/${params.id}`)
       },
       {
         path: 'login',

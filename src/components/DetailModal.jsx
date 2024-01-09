@@ -7,20 +7,23 @@ const DetailModal = () => {
 
     return (
         <div>
-            {/* Open the modal using document.getElementById('ID').showModal() method */}
-            <button className="btn" onClick={() => document.getElementById('my_modal_5').showModal()}>open modal</button>
-            <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
-                <div className="modal-box">
-                    <h3 className="font-bold text-lg">Hello!</h3>
-                    <p className="py-4">Press ESC key or click the button below to close</p>
-                    <div className="modal-action">
-                        <form method="dialog">
-                            {/* if there is a button in form, it will close the modal */}
-                            <button className="btn">Close</button>
-                        </form>
+            <div key={_id} className="card  bg-base-100 shadow-xl p-24">
+                <figure><img className="w-1/3" src={productImage} alt="Movie" /></figure>
+                <div className="card-body">
+                    <h2 className="card-title text-5xl">{productName}</h2>
+
+
+                    <p className=" my-5">{shortDescription} </p>
+                    {/* <h2 className="card-title text-lg">Cook Email: {user?.email}</h2> */}
+                    <h2 className="card-title text-lg">Location : <span className="text-blue-700">{amount}</span></h2>
+                    <h2 className="card-title text-lg">Agent Name : <span className="text-blue-700"> {price}</span> </h2>
+                    <h1 className="card-title text-lg mb-7">Price : <span className="text-3xl font-extrabold text-red-700">{category}</span></h1>
+
+                    <div className="card-actions justify-start">
+                       
                     </div>
                 </div>
-            </dialog>
+            </div>
         </div>
     );
 };
