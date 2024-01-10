@@ -1,5 +1,5 @@
 import bannerImg from '../../assets/images/banner/g.png'
-import Typewriter from 'typewriter-effect';
+import Typewriter from 'typewriter-effect'
 const Banner = () => {
     return (
         <div className='relative'>
