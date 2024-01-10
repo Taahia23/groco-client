@@ -11,6 +11,7 @@ import Oil from "../pages/Oil";
 import Rice from "../pages/Rice";
 import Chicken from "../pages/Chicken";
 import DetailModal from "../components/DetailModal";
+import ZoomImage from "../components/Image/ZoomImage";
 
 export const router = createBrowserRouter([
   {
@@ -44,6 +45,11 @@ export const router = createBrowserRouter([
       {
         path: '/detail/:id',
         element: <DetailModal></DetailModal>,
+        loader: ({ params }) => fetch(`http://localhost:5000/foodItem/${params.id}`)
+      },
+      {
+       
+        element: <ZoomImage></ZoomImage>,
         loader: ({ params }) => fetch(`http://localhost:5000/foodItem/${params.id}`)
       },
       {

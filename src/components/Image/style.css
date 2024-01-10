@@ -1,0 +1,25 @@
+
+.image{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+   
+}
+
+.image img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transform: scale(var(--zoom, 1));
+    transform-origin: var(--x) var(--y);
+    transition: transform 0.3s ease;
+}
+
+.image:hover{
+    --zoom: 3;
+    cursor: zoom-in;
+
+}

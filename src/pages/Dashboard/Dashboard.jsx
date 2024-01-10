@@ -20,7 +20,7 @@ const DashBoard = () => {
                 </div>
                 <div className="drawer-side">
                     <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
-                    <ul className="menu p-4 w-80 min-h-full bg-[#C2E1C2] text-base-content">
+                    <ul className="menu p-4 w-56 min-h-full bg-[#C2E1C2] text-base-content">
                         {/* Sidebar content here */}
                         <li className="text-lg py-2 font-semibold"><Link to={'/fish'} >Fish & Meat</Link></li>
                         <li className="text-lg py-2 font-semibold"><Link to={'/cooking'} >Cooking</Link></li>

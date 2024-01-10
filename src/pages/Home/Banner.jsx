@@ -1,4 +1,4 @@
-import bannerImg from '../../assets/images/banner/banner2.png'
+import bannerImg from '../../assets/images/banner/g.png'
 import Typewriter from 'typewriter-effect';
 const Banner = () => {
     return (
