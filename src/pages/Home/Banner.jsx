@@ -1,5 +1,6 @@
 import bannerImg from '../../assets/images/banner/g.png'
 import Typewriter from 'typewriter-effect'
+import FastMarque from '../../components/FastMarque';
 const Banner = () => {
     return (
         <div className='relative'>
@@ -21,6 +22,7 @@ const Banner = () => {
                 </h1>
                 <p className='text-white text-lg hidden lg:block px-2 py-5'>Grocery Delivered at your Doorstep</p>
             </div>
+            <FastMarque></FastMarque>
 
         </div>
     );
