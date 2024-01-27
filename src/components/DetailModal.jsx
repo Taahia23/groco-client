@@ -18,7 +18,7 @@ const DetailModal = () => {
     const handleAddToCart = food => {
         if (user && user.email) {
             // send cart into the wishlist
-            // console.log(user.email, food);
+            console.log(user.email, food);
             const cartItem = {
                 foodId : _id,
                 email : user.email,

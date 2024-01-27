@@ -15,7 +15,7 @@ const Navbar = () => {
         <li className="text-xl hover:text-white"><Link to={'/'}>Home</Link></li>
         <li className="text-xl hover:text-white"><Link to={'/'}>Dashboard </Link></li>
         <li className="text-xl hover:text-white ">
-            <Link to={'/'}>
+            <Link to={'/dashboard/cart'}>
                 <button className="flex">
                     <FaShoppingCart className="ml-2" />
                     <div className="badge bg-[#C2E1C2] p-3 font-bold ml-2">+{cart.length}</div>

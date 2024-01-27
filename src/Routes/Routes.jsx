@@ -13,6 +13,9 @@ import Chicken from "../pages/Chicken";
 import DetailModal from "../components/DetailModal";
 import ZoomImage from "../components/Image/ZoomImage";
 import PrivateRoute from "./PrivateRoute";
+import UserAdminDashboard from "../layout/UserAdminDashboard";
+import MyCart from "../pages/UserAdminDashboard/MyCart";
+import UserProfile from "../pages/UserAdminDashboard/UserProfile";
 
 export const router = createBrowserRouter([
   {
@@ -63,5 +66,19 @@ export const router = createBrowserRouter([
       },
     ]
   },
+  {
+    path: 'dashboard',
+    element: <UserAdminDashboard></UserAdminDashboard>,
+    children: [
+      {
+        path: 'cart',
+        element: <MyCart></MyCart>
+      },
+      {
+        path: 'userHome',
+        element: <UserProfile></UserProfile>
+      },
+    ]
+  }
 
 ]);
