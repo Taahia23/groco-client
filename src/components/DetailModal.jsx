@@ -13,7 +13,7 @@ const DetailModal = () => {
     const [, refetch] = useCart();
     const axiosSecure = useAxiosSecure()
     const singleFood = useLoaderData();
-    const { _id, productName, price, amount, shortDescription, category } = singleFood;
+    const { _id, productName, productImage, price, amount, shortDescription, category } = singleFood;
 
     const handleAddToCart = food => {
         if (user && user.email) {
@@ -23,6 +23,8 @@ const DetailModal = () => {
                 foodId : _id,
                 email : user.email,
                 productName,
+                productImage,
+                category,
                 price,
                 amount,
             }
@@ -83,8 +85,8 @@ const DetailModal = () => {
 
 
                     <p className="flex justify-center items-center">{shortDescription} Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.  </p>
-                    {/* <h2 className="card-title text-lg">Cook Email: {user?.email}</h2> */}
-                    <h2 className=" text-lg">Amount : <span className="text-blue-700">{amount}</span></h2>
+                    {/* <h2 className=" text-lg">Cook Email: {user?.email}</h2> */}
+                    <h2 className="card-title text-lg">Amount : <span className="text-blue-700">{amount}</span></h2>
                     <h2 className="card-title text-lg">Price : <span className="text-blue-700"> {price}</span> </h2>
                     <h1 className="card-title text-lg mb-7">Category : <span className=" font-extrabold text-red-700">{category}</span></h1>
 

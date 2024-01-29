@@ -16,6 +16,7 @@ import PrivateRoute from "./PrivateRoute";
 import UserAdminDashboard from "../layout/UserAdminDashboard";
 import MyCart from "../pages/UserAdminDashboard/MyCart";
 import UserProfile from "../pages/UserAdminDashboard/UserProfile";
+import AboutUs from "../pages/AboutUs/AboutUs";
 
 export const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ export const router = createBrowserRouter([
       {
         path: 'chicken',
         element: <Chicken></Chicken>
+      },
+      {
+        path: 'aboutUs',
+        element: <AboutUs></AboutUs>
       },
       {
         path: '/detail/:id',

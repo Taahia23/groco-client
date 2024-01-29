@@ -21,7 +21,7 @@ const Navbar = () => {
                     <div className="badge bg-[#C2E1C2] p-3 font-bold ml-2">+{cart.length}</div>
                 </button>
             </Link></li>
-        <li className="text-xl hover:text-white "><Link to={'/'}>About Us</Link></li>
+        <li className="text-xl hover:text-white "><Link to={'/aboutUs'}>About Us</Link></li>
         <li className="text-xl hover:text-white "><Link to={'/'}>Contact</Link></li>
 
         {

@@ -4,6 +4,7 @@ import FastMarque from '../../components/FastMarque';
 const Banner = () => {
     return (
         <div className='relative'>
+            
             <img src={bannerImg} alt="" />
             <div className='absolute top-1/3 left-32'>
                 <h1 className='text-6xl text-white font-bold'>
