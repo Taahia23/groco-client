@@ -4,11 +4,12 @@ import Swal from "sweetalert2";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
 import loginImg from '../../assets/images/banner/login.png'
+import SocialLogin from "../../components/SocialLogin";
 // import SocialLogin from "./SocialLogin";
 
 const Login = () => {
 
-    const {signIn} = useContext(AuthContext);
+    const { signIn } = useContext(AuthContext);
 
     const navigate = useNavigate();
     const location = useLocation();
@@ -38,7 +39,7 @@ const Login = () => {
             })
     }
 
-   
+
 
     return (
         // <div className="hero min-h-screen bg-base-200">
@@ -65,7 +66,7 @@ const Login = () => {
         //                     </label>
         //                 </div>
         //                 <div className="form-control mt-6">
-                            
+
         //                     <input className="btn btn-primary" type="submit" value="Login" />
         //                 </div>
         //             </form>
@@ -77,30 +78,37 @@ const Login = () => {
         // </div>
 
         <div className='flex justify-evenly items-center my-36'>
-        <div className="box ml-32">
-            <form onSubmit={handleLogin} action="">
-                <h2>Sign In</h2>
-                <div className="inputBox">
-                    <input type="email" name="email" id="" required />
-                    <span>Username</span>
-                    <i></i>
-                </div>
-                <div className="inputBox">
-                    <input type="password" name="password" id="" required />
-                    <span>Enter Password</span>
-                    <i></i>
-                </div>
-                <input type="submit" value="Login" />
-                <div className="links">
-                    <a href="#">Forget Password?</a>
-                    <Link className="text-blue-700 font-bold" to={'/signUp'}>Register</Link>
-                </div>
-            </form>
+            <div>
+            <div className="box ml-32">
+                <form onSubmit={handleLogin} action="">
+                    <h2>Sign In</h2>
+                    <div className="inputBox">
+                        <input type="email" name="email" id="" required />
+                        <span>Username</span>
+                        <i></i>
+                    </div>
+                    <div className="inputBox">
+                        <input type="password" name="password" id="" required />
+                        <span>Enter Password</span>
+                        <i></i>
+                    </div>
+                    <input type="submit" value="Login" />
+                    <div className="links">
+                        <a href="#">Forget Password?</a>
+                        <SocialLogin></SocialLogin>
+                        <Link className="text-blue-700 font-bold" to={'/signUp'}>Register</Link>
+                    
+                    </div>
+                     
+                </form>
+               
+            </div>
+            
+            </div>
+            <div>
+                <img src={loginImg} alt="" />
+            </div>
         </div>
-        <div>
-            <img src={loginImg} alt="" />
-        </div>
-    </div>
     );
 };
 
