@@ -18,6 +18,7 @@ import MyCart from "../pages/UserAdminDashboard/MyCart";
 import UserProfile from "../pages/UserAdminDashboard/UserProfile";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import AllUsers from "../pages/UserAdminDashboard/AllUsers";
+import AddProduct from "../pages/UserAdminDashboard/AddProduct";
 
 export const router = createBrowserRouter([
   {
@@ -87,6 +88,10 @@ export const router = createBrowserRouter([
       {
         path: 'allUsers',
         element: <AllUsers></AllUsers>
+      },
+      {
+        path: 'addProduct',
+        element: <AddProduct></AddProduct>
       },
     ]
   }

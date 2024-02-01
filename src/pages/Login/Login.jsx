@@ -80,7 +80,7 @@ const Login = () => {
         <div className='flex justify-evenly items-center my-36'>
             <div>
             <div className="box ml-32">
-                <form onSubmit={handleLogin} action="">
+                <form className="form-style" onSubmit={handleLogin} action="">
                     <h2>Sign In</h2>
                     <div className="inputBox">
                         <input type="email" name="email" id="" required />
